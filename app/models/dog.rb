@@ -20,7 +20,7 @@ def self.create
   dog
 end
 
-dog.age
+self.age
 
   
 end
