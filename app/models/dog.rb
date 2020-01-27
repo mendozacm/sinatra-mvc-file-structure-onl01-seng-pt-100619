@@ -11,6 +11,7 @@ def self.create
   dog = Dog.new 
   dog = Dog.save
   dog
+end
 
 
 
