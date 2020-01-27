@@ -7,7 +7,11 @@ def self.all
  @@all 
 end
 
-self.create
+def self.create
+  dog = Dog.new 
+  dog = Dog.save
+  dog
+
 
 
   
