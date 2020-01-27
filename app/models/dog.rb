@@ -7,7 +7,7 @@ def initialize(name, age, breed)
     @name = name
     @age = age
     @breed = breed
-    @@all << self
+    self.class.all << self
   end
 
 def self.all 
